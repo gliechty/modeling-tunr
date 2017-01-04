@@ -50,14 +50,21 @@ angular.module("tunrApp", ['ngRoute'])
 
 			// new
 			.when('/managers/new', {
-				template: '<h1>YAY</h1>'
+				templateUrl: '/templates/managers/new.html',
+				controller: "ManagerNewController as managerNewController"
 			})
 
 			// show
 			.when('/managers/:id', {
 				templateUrl: '/templates/managers/show.html',
 				controller: "ManagerShowController as managerController"
-			});		
+			})
+
+			// edit
+			.when('/managers/:id/edit', {
+				templateUrl: '/templates/managers/edit.html',
+				controller: "ManagersEditController as managerEditController"
+			});	
   });
 
 
