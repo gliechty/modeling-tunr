@@ -1,0 +1,27 @@
+{
+  "name": "modeling-tunr",
+  "version": "1.0.0",
+  "description": "<!--10:50 10 minutes for setup -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gliechty/modeling-tunr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gliechty/modeling-tunr/issues"
+  },
+  "homepage": "https://github.com/gliechty/modeling-tunr#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.28.0"
+  }
+}
